@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url("Library.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;       
+}
+#title{
+    color:white;
+    text-align: center;
+    padding-top: 2em;
+    font-size: 50px;
+}
+#description{
+    color:white;
+    text-align: center;
+    padding-top: 1em;
+    font-size: 20px;
+}
+
+#survey-form {
+    background:#E6DAC7;
+    margin-top:40px;
+    margin-left:300px;
+    margin-right:300px;
+    padding:40px 40px;
+    border-radius: 0.25rem;
+  }
+.name,.email,.number{
+  width: 100%;
+  padding: 12px 18px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  font-style: bold;
+  font-size: large ;
+  
+  
+}
+.nameInput,.emailInput,.numberInput{
+    width: 20%;
+    font-size: large ;
+
+}  
+.dropDownDiv{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    border: none;
+    font-style: bold;
+    font-size: large ;
+    
+    
+}
+#dropdown{
+    width:100%;
+    margin-top: 10px;
+    border-radius: 12px;
+    height: 50px;
+    font-size: large ;
+}
+.radiobox{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    font-style: bold;
+    
+}
+#radioQuestion{
+    margin-bottom: 10px;
+    font-size: large ;
+}
+#checkQuestion{
+    margin-bottom:10px;
+    font-size: large ;
+}
+.checkbox{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    font-style: bold;
+}
+#libraryReview{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    border: none;
+    font-style: bold;  
+    border-radius: 12px;
+    font-size: large ;
+}
+#submit{
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    font-style: bold;
+    background-color:black ;
+    border-radius: 12px;
+    color:white;
+    font-size: large ;
+    
+}
+#commentBox{
+    padding:30px 20px;
+}
+#comments{
+    margin-bottom: 10px;
+    font-size: large ;
+}
